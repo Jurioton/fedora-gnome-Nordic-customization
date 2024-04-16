@@ -21,8 +21,8 @@ cp -r Nordic ../.themes
 
 
 #Setting up the theme Nordic theme
-#gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
-#gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
+gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
+gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
 
 #Setting up the icons
 #git clone https://github.com/alvatip/Nordzy-icon.git
