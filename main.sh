@@ -11,7 +11,7 @@ echo "Cleaning directories..."
 #Cloning required repos
 #Evergreen GTK Theme and Icons
 git clone https://github.com/EliverLara/Nordic.git --depth=1
-cp -r Nordic .themes
+cp -r Nordic ../.themes
 # Cursors
 #git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
 # Wallpapers
