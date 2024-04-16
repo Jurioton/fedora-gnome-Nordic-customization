@@ -31,6 +31,6 @@ sudo ./install.sh
 
 #Setting wallpapers
 
-gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/.local/backgrounds/Nord-Wallpapers/wallpapers/21.png"
+gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/<user_name>/.local/backgrounds/Nord-Wallpapers/wallpapers/21.png"
 
 
