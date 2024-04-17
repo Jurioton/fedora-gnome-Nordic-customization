@@ -27,7 +27,7 @@ cp -r icons/Everforest-Dark ~/.icons
 gsettings set org.gnome.shell.extensions.user-theme name "Everforest-Dark-B"
 
 #Setting up icon theme
-gsettings set org.gnome.desktop.interface icon-theme 'Evergreen-Dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Everforest-Dark'
 
 
 
