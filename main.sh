@@ -20,10 +20,6 @@ git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
 cd WhiteSur-cursors/
 ./install.sh
 
-
-
-
-
 #Settinng up the shell theme
 #Before that you need to install gnome-shell-extension-user-theme
 gsettings set org.gnome.shell.extensions.user-theme name "Everforest-Dark-B"
@@ -38,11 +34,11 @@ gsettings set org.gnome.desktop.interface cursor-theme 'WhiteSur-cursors'
 gsettings set org.gnome.desktop.interface gtk-theme "Everforest-Dark-B"
 gsettings set org.gnome.desktop.wm.preferences theme "Everforest-Dark-B"
 
-
+wallpaper/
 # Wallpapers
 mkdir -p ~/Pictures/
 cp -r wallpaper/* ~/Pictures/ 
-gsettings set org.gnome.desktop.background picture-uri "file:///home/$user_name/Pictures/monterey.png"
-gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$user_name/Pictures/monterey.png"
+gsettings set org.gnome.desktop.background picture-uri "file:///home/$user_name/Pictures/2024-04-15-14-34-44-clay-banks-u27Rrbs9Dwc-unsplash.jpg"
+gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$user_name/Pictures/2024-04-15-14-34-44-clay-banks-u27Rrbs9Dwc-unsplash.jpg"
 
 
