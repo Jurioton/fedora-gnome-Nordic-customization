@@ -10,10 +10,13 @@ echo "Cleaning directories..."
 
 #Cloning required repos
 #Evergreen GTK Theme and Icons
+#git clone https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme.git --depth=1
+#cd Everforest-GTK-Theme
+#cd themes 
+#cp -r Everforest-Dark-B ../.././.themes
 git clone https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme.git --depth=1
 cd Everforest-GTK-Theme
-cd themes 
-cp -r Everforest-Dark-B ../.././.themes
+cp -r themes/Everforest-Dark-B ~/.themes
 # Cursors
 #git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
 # Wallpapers
