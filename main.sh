@@ -38,7 +38,7 @@ wallpaper/
 # Wallpapers
 mkdir -p ~/Pictures/
 cp -r wallpaper/* ~/Pictures/ 
-gsettings set org.gnome.desktop.background picture-uri "file:///home/$user_name/Pictures/2024-04-15-14-34-44-clay-banks-u27Rrbs9Dwc-unsplash.jpg"
-gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$user_name/Pictures/2024-04-15-14-34-44-clay-banks-u27Rrbs9Dwc-unsplash.jpg"
+gsettings set org.gnome.desktop.background picture-uri "file:///home/$user_name/Pictures/2024-04-15-14-34-44-fog_forest_alt_2.png"
+gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$user_name/Pictures/2024-04-15-14-34-44-fog_forest_alt_2.png"
 
 
