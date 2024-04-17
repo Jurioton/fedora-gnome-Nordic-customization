@@ -24,7 +24,9 @@ cp -r themes/Everforest-Dark-B ~/.themes
 #mv Nord-Wallpapers/ .local/share/backgrounds/
 
 #Settinng up the shell theme
+#Before that you need to install gnome-shell-extension-user-theme
 gsettings set org.gnome.shell.extensions.user-theme name "Everforest-Dark-B"
+
 
 
 #Setting up the theme Nordic theme
