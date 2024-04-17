@@ -10,15 +10,14 @@ echo "Cleaning directories..."
 
 #Cloning required repos
 #Evergreen GTK Theme and Icons
-#git clone https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme.git --depth=1
-#cd Everforest-GTK-Theme
-#cd themes 
-#cp -r Everforest-Dark-B ../.././.themes
 git clone https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme.git --depth=1
 cd Everforest-GTK-Theme
 cp -r themes/Everforest-Dark-B ~/.themes
+cp -r icons/Everforest-Dark ~/.icons
+
 # Cursors
 #git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
+
 # Wallpapers
 #git clone https://github.com/isouravgope/Nord-Wallpapers.git
 #mv Nord-Wallpapers/ .local/share/backgrounds/
@@ -26,6 +25,10 @@ cp -r themes/Everforest-Dark-B ~/.themes
 #Settinng up the shell theme
 #Before that you need to install gnome-shell-extension-user-theme
 gsettings set org.gnome.shell.extensions.user-theme name "Everforest-Dark-B"
+
+#Setting up icon theme
+gsettings set org.gnome.desktop.interface icon-theme 'Evergreen-Dark'
+
 
 
 
