@@ -15,8 +15,11 @@ cd Everforest-GTK-Theme
 cp -r themes/Everforest-Dark-B ~/.themes
 cp -r icons/Everforest-Dark ~/.icons
 
-# Cursors
-#git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
+# Installing Cursor Theme
+git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
+cd WhiteSur-cursors/
+./install.sh
+
 
 # Wallpapers
 #git clone https://github.com/isouravgope/Nord-Wallpapers.git
@@ -29,17 +32,13 @@ gsettings set org.gnome.shell.extensions.user-theme name "Everforest-Dark-B"
 #Setting up icon theme
 gsettings set org.gnome.desktop.interface icon-theme 'Everforest-Dark'
 
-
-
+#Setting up the cursor theme
+gsettings set org.gnome.desktop.interface cursor-theme 'WhiteSur-cursors'
 
 #Setting up the theme Nordic theme
 gsettings set org.gnome.desktop.interface gtk-theme "Everforest-Dark-B"
 gsettings set org.gnome.desktop.wm.preferences theme "Everforest-Dark-B"
 
-#Setting up the icons
-#git clone https://github.com/alvatip/Nordzy-icon.git
-#cd Nordzy-icon/
-#sudo ./install.sh
 
 #Setting wallpapers
 
