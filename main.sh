@@ -21,9 +21,8 @@ cd WhiteSur-cursors/
 ./install.sh
 
 
-# Wallpapers
-#git clone https://github.com/isouravgope/Nord-Wallpapers.git
-#mv Nord-Wallpapers/ .local/share/backgrounds/
+
+
 
 #Settinng up the shell theme
 #Before that you need to install gnome-shell-extension-user-theme
@@ -40,8 +39,10 @@ gsettings set org.gnome.desktop.interface gtk-theme "Everforest-Dark-B"
 gsettings set org.gnome.desktop.wm.preferences theme "Everforest-Dark-B"
 
 
-#Setting wallpapers
-
-#gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/<user_name>/.local/backgrounds/Nord-Wallpapers/wallpapers/21.png"
+# Wallpapers
+mkdir -p ~/Pictures/
+cp -r wallpaper/* ~/Pictures/ 
+gsettings set org.gnome.desktop.background picture-uri "file:///home/$user_name/Pictures/monterey.png"
+gsettings set org.gnome.desktop.background picture-uri-dark "file:///home/$user_name/Pictures/monterey.png"
 
 
